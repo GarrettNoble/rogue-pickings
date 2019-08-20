@@ -1,0 +1,149 @@
+/*** BASE ***/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*** HEADER ***/
+
+header {
+	border-bottom: 3px solid #77a446;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+header h1 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 23px;
+	text-transform: uppercase;
+	float: left;
+}
+
+header h1 span {
+	color: #77a446;
+}
+
+header nav ul {
+	float: right;
+}
+
+header nav ul li {
+	margin-left: 30px;
+	list-style: none;
+	display: inline;
+
+}
+
+header nav ul li a {
+	color: #77a446;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 23px;
+	text-decoration: none;
+}
+
+/*** TOP SECTION ***/
+
+img {
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title h3 {
+	color: #77a446;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+.main-title p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/*** BOTTOM SECTION ***/
+
+.bottom-section {
+	border-top: 1px solid #dedbdc;
+}
+
+.bottom-section h4 {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 25px;
+}
+
+.section-one, .section-two {
+	width: 399px;
+}
+
+.section-one, .section-two, .section-three {
+	float: left;
+	display: inline;
+}
+
+.section-one {
+	margin-right: 0;
+	border-right: 1px solid #dedbdc;
+}
+
+.section-one ul {
+	padding-left: 0;
+}
+
+.section-one ul li{
+	list-style: none;
+	padding-bottom: 18px;
+	font-size: 16px;
+	color: #77a466;
+}
+
+.section-two {
+	padding-left: 30px;
+	padding-right: 30px;
+	border-right: 1px solid #dedbdc;
+}
+
+.section-two p {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.section-three {
+	padding-left: 30px;
+}
+
+.section-three p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*** FOOTER ***/
+
+footer {
+	border-top: 1px solid #dedbdc;
+	clear: left;
+}
+
+footer h4 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 23px;
+	text-transform: uppercase;
+	padding-left: 400px;
+}
+
+footer h4 span {
+	font-family: 'Dancing Script';
+	font-size: 16px;
+	color: #77a466;
+}
